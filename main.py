@@ -2598,7 +2598,7 @@ class NewsAnalyzer:
             ("zhihu","知乎"),
             ("coolapk","酷安"),
             ("github","github"),
-            ("linuxdo","linux.do")
+            ("linuxdo","linuxdo")
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
