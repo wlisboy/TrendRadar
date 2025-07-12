@@ -2584,7 +2584,7 @@ class NewsAnalyzer:
         else:
             print("运行模式: 正常模式（频率词统计 + 新增检测）")
 
-        ids = [
+    ids = [
             ("toutiao", "今日头条"),
             # ("baidu", "百度热搜"),
             # ("wallstreetcn-hot", "华尔街见闻"),
@@ -2597,8 +2597,8 @@ class NewsAnalyzer:
             ("douyin","抖音"),
             ("zhihu","知乎"),
             ("coolapk","酷安"),
-            ("github","github"),
-            ("linuxdo","linuxdo")
+            ("github","github 热搜"),
+            ("linuxdo","linuxdo 热搜")
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
